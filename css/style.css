@@ -197,3 +197,9 @@ h3 p {
     gap: 100px;
     align-items: center;
 }
+.footer i:hover{
+    color: #dc466b;
+}
+.footer a:hover{
+    color: #dc466b;
+}
