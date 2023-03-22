@@ -1,0 +1,4 @@
+@mixin letras($tm-letras, $fnt-letras){
+    font-size: $tm-letras;
+    font-family: $fnt-letras;
+}

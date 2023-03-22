@@ -1,0 +1,42 @@
+.formulario{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 7px 13px 37px #0000;
+}
+.formulario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+.class-form {
+    @extend %basico;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #e3d3c6;
+    font-size: 18px;
+}
+.boton-form {
+    @extend %basico;
+    border: none;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+    transition: all 2s;
+}
+.boton-form:hover{
+    background: white;
+    color: #e3d3c6;
+    transform: scale(2);
+}
+.container-contacto-mio{
+    background-color: #e2d4c7;
+}

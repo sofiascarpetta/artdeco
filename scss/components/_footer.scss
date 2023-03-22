@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 50px 15%;
+    background: $cl-hueso;
+    color: $cl-a;
+    font-family: $letra-pl
+}
+.footer div{
+    text-align: center
+}
+.footer div h3{
+    font-size: $tm-medio;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.icon-social{
+    font-size: 25px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.footer i:hover{
+    color: #dc466b;
+}
+.footer a:hover{
+    color: #dc466b;
+}
